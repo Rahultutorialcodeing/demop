@@ -4,12 +4,7 @@ export default function Home() {
     <>
       <div className="w-full ">
         <div className="w-[1200px] py-[10px] mx-auto flex justify-between items-center">
-         <Image src={'https://www.swevextech.com/static/media/swevex-logo.57342302c37129db416d6a4b981ccd9b.svg'} width={200} height={120} alt=""/>
-          <ul className="flex gap-7 text-[25px]">
-            <li>Home</li>
-            <li>About</li>
-            <li>Service</li>
-          </ul>
+       <h1 className="text-[30px] font-bold">Rahul Pal</h1>
         </div>
       </div>
       <div className="w-full mt-8">
