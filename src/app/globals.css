@@ -2,20 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.home-hero-img {
+  width: 100%;
+  height: 664px;
+  background-image: url('https://www.swevextech.com/static/media/home-hero-img.978cfc215255eb74d1eb.svg');
+  /* background-position: 50%; */
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+.borde{
+  width: 390px;
+  border: 1px black solid;
+  border-radius: 10px;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
 }
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.borde:hover{
+  background-color: rgb(217, 217, 222);
 }
